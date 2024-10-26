@@ -1,0 +1,57 @@
+name: crypto_app
+description: A Flutter app for displaying cryptocurrency prices.
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  crypto: ^3.0.1
+  flutter_svg: ^1.0.0
+  # fl_chart: ^0.50.0
+  syncfusion_flutter_charts: ^20.1.55
+  flutter_launcher_icons: ^0.13.1
+  path: any
+  web_socket_channel: ^2.1.0
+  rename_app: ^1.6.1
+  sqflite: ^2.2.0+3 
+  drift: ^2.0.0
+  drift_flutter: 0.2.0 # Ensure compatibility with your sqflite version
+ 
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+
+  # If fl_chart is no longer needed, remove this comment and the dependency line
+  # fl_chart: ^0.40.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # - assets/icons/icon.png
+    # - assets/ethereum.png
+    # - assets/cardano.png
+    # - assets/binance.png
+    # - assets/tron.png
+
