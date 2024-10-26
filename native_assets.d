@@ -1,0 +1,1 @@
+ D:\\flutter\\trade\ x\\crypto\\.dart_tool\\flutter_build\\bd24676bd09e8da0b03be9aeec6bb7b1\\native_assets.yaml: 
